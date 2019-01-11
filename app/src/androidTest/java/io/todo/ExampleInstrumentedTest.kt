@@ -1,4 +1,4 @@
-package com.keepcoding.todo
+package io.todo
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.keepcoding.todo", appContext.packageName)
+        assertEquals("io.todo", appContext.packageName)
     }
 }

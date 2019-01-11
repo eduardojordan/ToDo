@@ -1,4 +1,4 @@
-package com.keepcoding.todo
+package io.todo
 
 import org.junit.Test
 
